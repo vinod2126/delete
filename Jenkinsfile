@@ -11,7 +11,7 @@ pipeline {
       steps {
         sh '''
 
-echo \'run the jenkins\' > /home/ubunut/test.sh'''
+ls -al'''
       }
     }
 
