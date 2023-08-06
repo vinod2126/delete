@@ -9,8 +9,7 @@ pipeline {
 
     stage('shell') {
       steps {
-        sh '''su root
-apt install tree -y
+        sh '''
 
 echo \'run the jenkins\' > /home/ubunut/test.sh'''
       }
