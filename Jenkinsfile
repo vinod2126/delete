@@ -7,6 +7,14 @@ pipeline {
       }
     }
 
+    stage('shell') {
+      steps {
+        sh '''apt install tree -y
+
+echo \'run the jenkins\' > /home/ubunut/test.sh'''
+      }
+    }
+
   }
   environment {
     GITHUB_TOKEN = credentials('github')
