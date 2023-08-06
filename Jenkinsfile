@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('git') {
       steps {
-        git(url: 'git@github.com:vinod2126/delete.git', branch: 'main')
+        git(url: 'https://github.com/vinod2126/delete.git', branch: 'main')
       }
     }
 
