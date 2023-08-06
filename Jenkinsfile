@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git') {
       steps {
-        git(url: 'git@github.com:vinod2126/radvix-frontend.git', branch: 'master')
+        git(url: 'git@github.com:vinod2126/delete.git', branch: 'main')
       }
     }
 
